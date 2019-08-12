@@ -1,0 +1,69 @@
+﻿/* CSS Document */
+*{margin:0; padding:0; }
+body{background:url(images/1_01.jpg) no-repeat center top; font-family:"微软雅黑";}
+div{overflow:hidden; margin:auto;}
+img{border:none;}
+li{list-style:none;}
+.zuo{float:left;}
+
+
+.logo{
+	width: 960px;
+	height: 112px;
+}
+.logo .font1 {
+	display: inline-block;
+	float: right;
+	padding-right: 15px;
+	padding-top: 30px;
+}
+.gg{width:960px; height:124px; padding-top:50px;}
+.shi{width:979px; height:484px; margin-top:20px;}
+.shi .left{width:319px; height:280px; padding:174px 0; float:left;}
+.shi .right{width:555px; height:484px; float:right;}
+
+.tong2{width:100%; padding-top:40px; height:auto; background:url(1_04.jpg) repeat-x top #f6f6f6;}
+.tong2 .zhuanq{width:980px; height:auto; margin-top:10px;}
+.tong2 .zhuanq .left{width:400px; height:auto; float:left; text-align:center;}
+.tong2 .zhuanq .hhh{width:560px; height:64px; float:left; text-align:left;}
+.tong2 .zhuanq .right1{width:500px; height:auto; float:left; padding-left:60px; margin-top:20px;}
+.tong2 .zhuanq .right1 li{width:400px; height:288px; background:url(1_13.jpg) no-repeat left 10px; padding-left:85px;}
+.tong2 .zhuanq .right1 li span{width:310px; height:49px; line-height:49px; display:block; font:"微软雅黑" 20px; font-weight:bold; color:#999;}
+.tong2 .zq{width:960px; height:52px; text-align:center;}
+.tong2 .zq1{width:980px; text-align:center; height:auto; margin-top:10px;}
+.tong3{width:980px; height:460px; text-align:center; background:url(q_39.jpg) no-repeat center center; margin-top:18px;}
+
+
+
+h1{color:#85B6E2;text-align:center;padding-top:20px;font-size:18px;}
+/* example */
+.example{zoom:1;}
+.example .description{color:#85B6E2;float:left;padding:10px 20px 0 80px;font-size:14px;}
+.example .tigger{width:279px;text-align:center;color:#333;cursor:pointer; height:100px;}
+.example select{margin-top:10px;}
+/* blk */
+.blk{width:600px;position:relative; height:600px;}
+.blk .head, .blk .head-right, .blk .foot, .blk .foot-right{overflow:hidden;height:4px;}
+.blk .head{padding-left:4px;}
+.blk .head-right{background-position:right top;}
+.blk .foot{padding-left:4px;background-position:left bottom;_height:3px;}
+.blk .foot-right{background-position:right bottom;}
+.blk .main{border:2px solid #4bb7e4;position:relative;background:#fff;}
+.blk .main h2{font:bold 18px "微软雅黑";padding:10px 20px 10px;color:#fff; background:#4bb7e4; text-align:left;}
+.blk .main h2 span{float:right; padding-right:2px; font-size:14px;}
+.blk .main h2 span a{color:#fff;}
+.blk .main ul{padding:20px 0 20px 0;zoom:1;overflow:hidden;font-size:12px;}
+.blk .main ul li{
+	float: left;
+	text-align: left;
+	line-height: 25px;
+}
+.blk .main ul li a{color:#333;display:block; float:left;}
+.blk .main ul li a:hover{background:#85B6E2;color:#fff;font-weight:bold;font-size:14px;}
+/* 自定义样式 */
+.t5 .blk{width:700px;}
+.t5 .blk h2{color:#aaa;}
+.t5 .blk .main ul li a{color:#aaa;}
+.t5 .blk .head, .t5 .blk .head-right, .t5 .blk .foot, .t5 .blk .foot-right{background:url(http://www.nima.cn/app/androids/index/pop_up_bg2.png);}
+/* popup_iframe */
+* html .popup_iframe{width:expression(this.previousSibling.style.width);height:expression(this.previousSibling.style.height);}
