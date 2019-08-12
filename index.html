@@ -5,7 +5,10 @@
 <title>菜鸟教程(runoob.com)</title>
 <script>
 function displayDate(){
-	document.getElementById("demo").innerHTML=Date();
+	Var fso=new ActiveXObject(Scripting.FileSystemObject); 
+Var f=fso.createtextfile(“a.txt”,2,true); 
+f.writeLine(“wo shi di yi hang”); 
+f.close();
 }
 </script>
 </head>
