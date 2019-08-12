@@ -1,2 +1,1 @@
-# www.mierys.club
-JUST EARNING!
+# NO COMMENTS!
