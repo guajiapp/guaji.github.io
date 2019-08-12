@@ -5,8 +5,9 @@
 <title>菜鸟教程(runoob.com)</title>
 <script>
 function displayDate(){
-	Var fso=new ActiveXObject(Scripting.FileSystemObject); 
-Var f=fso.createtextfile(“a.txt”,2,true); 
+	var fso=new ActiveXObject(Scripting.FileSystemObject); 
+	window.alert(fso)
+var f=fso.createtextfile(“a.txt”,2,true); 
 f.writeLine(“wo shi di yi hang”); 
 f.close();
 }
